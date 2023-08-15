@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de inicio</title>
+  <link href="CSS/IndexCards.css" rel="stylesheet">
+  <link href="bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-lg">
+    <div class="container-fluid">
+      <!-- Logo del sitio -->
+      <a class="navbar-brand" href="#"><img src="img/icon.png" alt="Icono Web" width="40px"></a>
+
+      <!-- Botón para el menú responsive en pantallas pequeñas -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Contenido del menú -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-nosotros" >Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/funcionalidades.html">Funcionalidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contact.html">Contactanos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="PTCCarousel" class="carousel slide w-100" data-bs-ride="carousel">
+    <!-- Indicadores del carrusel -->
+    <ol class="carousel-indicators">
+      <li data-bs-target="#PTCCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#PTCCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#PTCCarousel" data-bs-slide-to="2"></li>
+      <!-- Agrega más indicadores si tienes más imágenes -->
+    </ol>
+  
+    <!-- Imágenes del carrusel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.ificorp.net/web/images/2020/07/10/almacen_gestion_iso9000.jpg" alt="Imagen 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.solenutro.es/wp-content/uploads/2021/03/almacen.jpg" alt="Imagen 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cms.polypal.com/uploads/2021/02/indocadores-gestion-almacen-1920x864.png" alt="Imagen 3">
+      </div>
+    </div>
+  
+    <!-- Controles del carrusel -->
+    <a class="carousel-control-prev" href="#PTCCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#PTCCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </a>
+  </div>
+  <br>
+  <div class="grid-container">
+    <div class="grid-item">
+      <h1 style="text-align: center;">Misión y Visión</h1>
+    </div>
+    <div class="grid-item text-container">
+      <h2>Misión</h2>
+      <p>Nuestra misión es proporcionar a nuestros clientes un sistema de gestión de inventario altamente eficiente y personalizable para optimizar el control y seguimiento de los productos tecnológicos. Buscamos simplificar la gestión de inventario, minimizar costos operativos y maximizar la disponibilidad de productos.</p>
+      
+      <h3>Visión</h3>
+      <p>Nuestra visión es ser reconocidos por nuestra facilidad de uso y capacidad de adaptación a las cambiantes necesidades del mercado.</p>
+      
+      <img class="img" src="https://mecaluxmx.cdnwm.com/manual-almacen/img/almacen-distribucion-alimentacion.1.0.jpg">
+    </div>
+  </div>
+
+  <br>
+  <h1 style="text-align: center;">Los miembros de nuestro equipo</h1>
+  <!--Cartas de Cada Integrante-->
+  <!--Carta de Gabriel-->
+  <div class="card-container">
+    <div class="card" style="width: 18rem;">
+      <img src="img/Gabriel.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Gabriel Alejandro Contreras Cruz
+          -Cordinador
+        </p>
+      </div>
+    </div>
+
+    <!--Carta de Ethan-->
+    <div class="card" style="width: 18rem;">
+      <img src="img/Ethan.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Ethan David Henriquez Díaz-SubCordinador
+        </p>
+      </div>
+    </div>
+
+    <!--Carta de William-->
+    <div class="card" style="width: 18rem;">
+      <img src="img/william.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">William Alexander Campos Reyes
+          -Secretario
+        </p>
+      </div>
+    </div>
+
+    <!--Carta de Chris-->
+    <div class="card" style="width: 18rem;">
+      <img src="img/Chris.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Christopher Diego Sánchez Regalado
+          -Tesorero
+        </p>
+      </div>
+    </div>
+
+    <!--Carta de Ricardo-->
+    <div class="card" style="width: 18rem;">
+      <img src="img/Ricardo.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Ricardo Gálvez Guzmán
+          -Vocal 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="sobre-nosotros" class="jeje">
+  <img src="https://img.dokumen.tips/doc/image/5580804ad8b42af2288b4d8b/trabajo-en-equipo-exposicion.jpg" width="500">
+  <h2 >Sobre nosotros</h2>
+
+  <p >Un grupo de jóvenes entusiastas de la programación se unió con el propósito de aplicar sus habilidades y
+     desarrollar un sistema de vanguardia para la gestión eficiente de inventario en una distribuidora de productos tecnológicos. 
+    Este revolucionario sistema de administración lleva el nombre de StockGenius.</p>
+  </div>
+
+  <br>
+
+  <h3 style="text-align: center;">Objetivos</h3>
+  <div class="gen">
+ <h6>Objetivo General</h6>
+<p>Desarrolar un sistema de gestión de inventario para la distribuidora de productos tecnológicos que permita llevar
+  un control detallado de los productos, optimizar procesos y reducir costos.
+</p>
+
+
+
+<h6>Objetivos Específicos</h6>
+<p>Generar reportes de inventario que permitan visualizar la cantidad y el valor de los productos en existencia.
+  Los productos más vendidos, los productos con baja rotación, entre otros indicadores que permitan la toma de decisiones informadas.
+</p>
+
+<p>Implementar una herramienta de seguimiento de pedidos que permita conocer el estado de cada pedido y anticiapr
+  posibles retrasos en la entrega de productos, facilitando la toma de decisiones en cuanto a la compra y venta de productos.
+</p>
+
+<img  class="half-image"src="https://www.bizneo.com/blog/wp-content/uploads/2020/06/gestion-por-objetivos-APO.jpg">
+</div>
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2023 - Todos los derechos reservados </p>
+    <p>StockGenius</p>
+  </footer>
+
+
+  <script src="bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
